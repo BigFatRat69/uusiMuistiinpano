@@ -11,7 +11,7 @@
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     activate server
     server-->>browser: CSS file
-    deactiavte server
+    deactivate server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa.js
     activate server
